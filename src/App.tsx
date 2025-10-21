@@ -1,7 +1,12 @@
 import "./App.css";
+import { Flows } from "./features/flows/Flows";
 
 function App() {
-  return <>ПОТОКИ</>;
+  return (
+    <>
+      <Flows />
+    </>
+  );
 }
 
 export default App;
