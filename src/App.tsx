@@ -1,10 +1,17 @@
 import "./App.css";
+import { CreateFlow } from "./features/flows/CreateFlow";
 import { Flows } from "./features/flows/Flows";
 
 function App() {
   return (
     <>
-      <Flows />
+      <main>
+        <Flows />
+      </main>
+
+      <footer>
+        <CreateFlow />
+      </footer>
     </>
   );
 }

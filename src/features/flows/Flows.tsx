@@ -7,7 +7,7 @@ export function Flows() {
   return flows.length > 0 ? (
     <ul>
       {flows.map((flow) => (
-        <li>{flow.title}</li>
+        <li key={flow.id}>{flow.title}</li>
       ))}
     </ul>
   ) : (
