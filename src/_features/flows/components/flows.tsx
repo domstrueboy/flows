@@ -1,5 +1,5 @@
-import type { RootState } from "../../app/store";
 import { useSelector } from "react-redux";
+import type { RootState } from "@/store";
 
 export function Flows() {
   const flows = useSelector((state: RootState) => state.flowsReducer.flows);

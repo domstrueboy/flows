@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { createFlow } from "./flowsSlice";
-import type { SubmitFormEvent } from "../../shared/types";
+import type { SubmitFormEvent } from "@/types";
+import { createFlow } from "../store/flows-slice";
 
 export function CreateFlow() {
   const dispatch = useDispatch();
